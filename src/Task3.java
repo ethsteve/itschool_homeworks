@@ -1,7 +1,7 @@
 import java.time.LocalTime;
 import java.util.Scanner;
 
-public class Main3 {
+public class Task3 {
     public static void main(String[] args) {
         /* I thought this task was more difficult =) */
         Scanner scanner = new Scanner(System.in);
