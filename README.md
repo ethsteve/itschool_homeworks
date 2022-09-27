@@ -1,1 +1,1 @@
-# Samsung IT School | Homework 0
+# Samsung IT School | Homework 1
