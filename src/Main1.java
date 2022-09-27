@@ -28,8 +28,8 @@ public class Main1 {
 
         short parsedNumber = Short.parseShort(number);
 
-        System.out.print(hundreds + dozens + units);
+        System.out.println(hundreds + dozens + units);
         /* To be honest, I didn't understand this before. I was very surprised 0_0 */
-        System.out.println(" " + (parsedNumber - parsedNumber % 2 + 2));
+        System.out.println(parsedNumber - parsedNumber % 2 + 2);
     }
 }
