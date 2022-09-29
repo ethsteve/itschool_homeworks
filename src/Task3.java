@@ -11,19 +11,19 @@ public class Task3 {
 
         switch (cakesDigitArray[cakesDigitArray.length - 1]) {
             case "1":
-                phraseEnd = cakesDigit < 10 || cakesDigit > 20 ? "" : "ОВ";
+                phraseEnd = cakesDigit < 10 || cakesDigit > 20 ? "" : "OV";
                 break;
 
             case "2":
             case "3":
             case "4":
-                phraseEnd = cakesDigit < 10 || cakesDigit > 20 ? "А" : "ОВ";
+                phraseEnd = cakesDigit < 10 || cakesDigit > 20 ? "A" : "OV";
                 break;
 
             default:
-                phraseEnd = "ОВ";
+                phraseEnd = "ОV";
         }
 
-        System.out.printf("%1$s ТОРТ%2$s", cakesDigit, phraseEnd);
+        System.out.printf("%1$s TORT%2$s", cakesDigit, phraseEnd);
     }
 }
